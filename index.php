@@ -411,6 +411,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .doc-button:hover {
             background: rgba(255, 255, 255, 0.3);
         }
+        .enterprise-project {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: rgba(44, 62, 80, 0.05);
+            border-radius: 6px;
+        }
+
+        .enterprise-project h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .enterprise-project p {
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .project-tech {
+            margin-top: 2rem;
+        }
     </style>
 </head>
 <body>
@@ -476,7 +498,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="project-card">
                     <div class="project-content">
                         <h3 class="project-title">Roblox Game Development</h3>
-                        <p class="project-description">Created multiple games with over 22,000 combined visits, featuring complex systems and mechanics.</p>
+                        <p class="project-description">Created multiple games with over 22,000 combined visits. Comprosing months of mostly coding with some game and UI design. Full of complex datastores, leaderboard systems, point systems, purchasing systems, inventories, shops, combat and many more.</p>
                         <ul>
                             <li><a href="https://www.roblox.com/games/17649210238/Greek-Dungeon-RNG-early-alpha" target="_blank">Greek Dungeon RNG</a></li>
                             <li><a href="https://www.roblox.com/games/17613237654/Easy-Skibidi-Meme-Obby-100-Stages" target="_blank">Skibidi Meme Obby</a></li>
@@ -508,26 +530,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </section>
 
         <section id="work-experience">
-            <h2 class="section-title">Professional Work</h2>
-            <div class="project-card">
-                <div class="project-content">
-                    <h3 class="project-title">Enterprise Software Development</h3>
-                    <p class="project-description">Key projects at Lake Cable LLC:</p>
-                    <ul>
-                        <li>Calibration System (~5,000-10,000 LOC)</li>
-                        <li>Operator Information Dashboard (~3,000 LOC)</li>
-                        <li>Interactive Tutorial System</li>
-                        <li>Real-time Production Monitoring System</li>
-                        <li>Advanced SQL Database Migration</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">C++</span>
-                    </div>
-                </div>
+    <h2 class="section-title">Professional Work</h2>
+    <div class="project-card">
+        <div class="project-content">
+            <h3 class="project-title">Enterprise Software Development</h3>
+            <p class="project-description">Lead Software Developer at Lake Cable LLC, delivering mission-critical applications that enhance manufacturing operations and data management:</p>
+            <div class="enterprise-project">
+                <h4>Operator Information Dashboard (~3,000 LOC)</h4>
+                <p>Enterprise-wide web application deployed across all manufacturing plants, serving thousands of daily users. Provides real-time work order management, job tracking, and machine status monitoring. Built with advanced CSS/HTML frontend and robust backend integration, significantly improving operational workflow efficiency.</p>
             </div>
+            <div class="enterprise-project">
+                <h4>Calibration System (~5,000-10,000 LOC)</h4>
+                <p>Comprehensive tool management platform featuring advanced data collection and metrics tracking. Includes sophisticated search functionality for accessing tool specifications, measurement data, and calibration histories, ensuring consistent quality control across operations.</p>
+            </div>
+            <div class="enterprise-project">
+                <h4>Real-time Production Monitoring System</h4>
+                <p>Plant-wide production visualization system displayed on facility-wide screens, providing shift supervisors with instant visibility into production line status and work order progress. Features responsive design that optimizes data presentation across various display sizes.</p>
+            </div>
+            <div class="enterprise-project">
+                <h4>Advanced SQL Database Migration</h4>
+                <p>Leading a 12-week database modernization initiative implementing system-versioned tables across the infrastructure. Project involves comprehensive query optimization and schema updates to enable robust historical data tracking while maintaining system integrity.</p>
+            </div>
+
+            <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">Database Design</span>
+            </div>
+        </div>
+    </div>
         </section>
 
         <section id="reviews">
