@@ -548,10 +548,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p>Plant-wide production visualization system displayed on facility-wide screens, providing shift supervisors with instant visibility into production line status and work order progress. Features responsive design that optimizes data presentation across various display sizes.</p>
             </div>
             <div class="enterprise-project">
-                <h4>Advanced SQL Database Migration</h4>
+                <h4>Advanced SQL Database Conversion</h4>
                 <p>Leading a 12-week database modernization initiative implementing system-versioned tables across the infrastructure. Project involves comprehensive query optimization and schema updates to enable robust historical data tracking while maintaining system integrity.</p>
             </div>
-
+            <div class="enterprise-project">
+                <h4>SQL Database Migration</h4>
+                <p>A separate project from the Database Conversion project. Required moving databases from mySQL to SQL server for centralized and optimized database procedures. Required in-depth CTE and temporal table conversions for specified tables.</p>
+            </div>               
             <div class="project-tech">
                 <span class="tech-tag">PHP</span>
                 <span class="tech-tag">JavaScript</span>
